@@ -1,0 +1,1 @@
+function h=D2subplot(iframe,nrow,ncol,oma,mar);global tmp;irow = floor((iframe-1)/ncol)+1;icol = rem(iframe-1,ncol)+1;pw = 1-oma(2)-oma(4);ph = 1-oma(1)-oma(3);spw = pw/ncol;sph = ph/nrow;left=oma(2)+(icol-1)*spw+mar(2);bottom=1-oma(3)-irow*sph+mar(1);width=spw-mar(2)-mar(4);height=sph-mar(1)-mar(3);h=axes('position',[left bottom width height]);	

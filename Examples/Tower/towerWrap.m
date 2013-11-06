@@ -1,0 +1,2 @@
+generateLatinTowerData
+runmcmc
